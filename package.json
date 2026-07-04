@@ -1,0 +1,12 @@
+{
+"name": "nodered-render-cloud",
+"version": "1.0.0",
+"description": "Istanza Node-RED per controllo PID Clima",
+"main": "index.js",
+"scripts": {
+"start": "node-red"
+},
+"dependencies": {
+"node-red": "^3.0.0"
+}
+}
