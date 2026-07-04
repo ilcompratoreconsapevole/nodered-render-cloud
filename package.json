@@ -4,10 +4,9 @@
   "description": "Istanza Node-RED per controllo PID Clima",
   "main": "index.js",
   "scripts": {
-    "start": "node-red"
+    "start": "node-red --userDir /data"
   },
   "dependencies": {
-    "node-red": "^3.0.0",
     "node-red-contrib-pid": "^1.2.0",
     "node-red-contrib-google-smarthome": "^0.4.1",
     "node-red-contrib-tuya-smart-device": "^1.1.0"
